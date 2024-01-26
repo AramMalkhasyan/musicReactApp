@@ -1,0 +1,107 @@
+.dragAndDropIcon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.playIcon{
+    width: 20px;
+    height: 20px; 
+    cursor: pointer;
+}
+
+
+.listItem{
+    display: flex;
+    width: 72.5%;
+    border-bottom: #9B9B9B solid 1px;
+    margin-left: 15%;
+    margin-top: 1rem;
+}
+
+.songName{
+    padding-left: 2rem;
+    width: 20rem;
+    color: #9B9B9B;
+}
+
+
+.artistName{
+    width: 20rem;
+    color: #9B9B9B;
+    padding-left: 8rem;
+}
+.trackNumber{
+    color: #9B9B9B;
+    width: 10rem;
+    padding-left: 3rem;
+}
+.iconsCont{
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+}
+
+.likeButton{
+    cursor: pointer;
+}
+
+
+@media (max-width: 430px) {
+    .dragAndDropIcon{
+        width: 15px;
+        height: 15px;
+    }
+    .playIcon{
+        width: 15px;
+        height: 15px; 
+    }
+    .listItem{
+        display: flex;
+        width: 500px;
+        border-bottom: #9B9B9B solid 1px;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .songName{
+        padding-left: 2rem;
+        width: 20rem;
+        color: #9B9B9B;
+        font-size: small;
+    }
+    .artistName{
+        width: 20rem;
+        color: #9B9B9B;
+        padding-left: 8rem;
+        font-size: small;
+    }
+    .trackNumber{
+        color: #9B9B9B;
+        width: 10rem;
+        padding-left: 3rem;
+        font-size: small;
+    }
+    .iconsCont{
+        display: flex;
+        justify-content: space-around;
+        width: 8rem;
+    }
+    .likeButton{
+        width: 15px;
+        height: 15px;
+    }
+    .ChackMarkButton{
+        width: 15px;
+        height: 15px;
+    }
+    .ShareButton{
+        width: 15px;
+        height: 15px;
+    }
+    .arrowDownButton{
+        width: 15px;
+        height: 15px;
+    }
+    
+}
+
+

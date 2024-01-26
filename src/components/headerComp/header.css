@@ -1,0 +1,102 @@
+.playAllButton{
+    border: #9B9B9B solid 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.addAllButton{
+    border: #9B9B9B solid 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;  
+    height: 2rem;
+    cursor: pointer;
+}
+.playAllDrop{
+    border: #9B9B9B solid 1px;
+    height: 2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.addAllDrop{
+    border: #9B9B9B solid 1px;
+    height: 2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.trackNumberButton{
+    height: 2rem;
+    border: #9B9B9B solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.searchInput{
+    height: 1.65rem;
+    border-radius: 50px;
+    border: #9B9B9B solid 0.5px;
+    margin-left: 0.5rem;
+}
+.headerConteiner{
+    border: #9B9B9B solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    width: 70%;
+    background-color: #E3E3E3;
+    border-radius: 5px;
+    margin-left: 15%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+@media (max-width: 430px) {
+    .headerConteiner{
+        border: #9B9B9B solid 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3.5rem;
+        width: 465px;
+        margin-left: 0;
+        background-color: #E3E3E3;
+        border-radius: 5px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .playAllDrop{
+        display: none;
+        border: #9B9B9B solid 1px;
+        height: 2rem;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+    }
+    .addAllDrop{
+        display: none;
+        border: #9B9B9B solid 1px;
+        height: 2rem;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+    }
+    .searchInput{
+        height: 1.65rem;
+        width: 5rem;
+        border-radius: 50px;
+        border: #9B9B9B solid 0.5px;
+        margin-left: 0.5rem;
+    }
+    .trackNumberButton{
+        height: 2rem;
+        width: 4rem;
+        border: #9B9B9B solid 1px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+

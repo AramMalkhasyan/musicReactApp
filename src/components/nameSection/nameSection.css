@@ -1,0 +1,72 @@
+.nameSecBlock{
+    width: 72.5%;
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-left: 15%;
+    display: flex;
+    color: #686464;
+}
+.playEmptyArea{
+    width: 5rem;
+    background-color: #E3E3E3;
+}
+.songNameArea{
+    width: 20rem;
+    margin-left: 0.2rem;
+    background-color: #E3E3E3;
+}
+.songNameArea p {
+    margin-left: 0.5rem;
+    font-weight: bolder;
+}
+.artistNameArea{
+    width: 20rem;
+    margin-left: 0.2rem;
+    background-color: #E3E3E3;
+}
+.artistNameArea p {
+    margin-left: 0.5rem;
+    font-weight: bolder;
+}
+.trackArea{
+    width: 6rem;
+    margin-left: 0.2rem;
+    background-color: #E3E3E3;
+}
+.trackArea p {
+    margin-left: 0.5rem;
+    font-weight: bolder;
+}
+.reactionEmptyArea{
+    width: 10rem;
+    margin-left: 0.2rem;
+    background-color: #E3E3E3;
+}
+
+
+@media (max-width: 430px) {
+    .nameSecBlock{
+        width: 500px;
+        height: 3.5rem;
+        margin-top: 1rem;
+        margin-left: 0;
+        display: flex;
+        color: #686464;
+    }
+    .songNameArea p {
+        margin-left: 0.5rem;
+        font-weight: bolder;
+        font-size: small;
+    }
+    .artistNameArea p {
+        margin-left: 0.5rem;
+        font-weight: bolder;
+        font-size: small;
+    }
+    .trackArea p {
+        margin-left: 0.5rem;
+        font-weight: bolder;
+        font-size: small;
+    }
+}
+
